@@ -1,0 +1,15 @@
+.button{
+  border-radius: 5px;
+  background-color: var(--blue);
+  border: none;
+  width: 100px;
+  height: 30px;
+  transition: all 0.5s ease-in-out;
+  margin: 10px 0 30px;
+}
+
+.button:hover {
+background-color: var(--bluelight);
+}
+
+

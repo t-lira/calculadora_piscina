@@ -1,0 +1,10 @@
+
+@media(min-width:1024px){
+  .section_main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 120px;
+}
+}

@@ -1,0 +1,13 @@
+.s_main__form{
+  width: 100%;
+  padding: 30px;
+}
+
+@media(min-width:1024px){
+  .s_main__form{
+    height: 60vh;
+    width: 50%;
+    background-color: rgb(224, 221, 218);
+    border-radius: 0 10px 10px 0;
+  }
+}

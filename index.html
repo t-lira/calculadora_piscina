@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <!--link css-->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/index/section/section_main.css">
+  <link rel="stylesheet" href="assets/css/index/section/s_main_image.css">
+  <link rel="stylesheet" href="assets/css/index/section/s_main_text.css">
+  <link rel="stylesheet" href="assets/css/index/form/form.css">
+  <link rel="stylesheet" href="assets/css/index/form/s_main_form.css">
+  <link rel="stylesheet" href="assets/css/index/form/button.css">
+  <!--link favicon-->
+  <link rel="shortcut icon" href="assets/image/favicon/icons.ico" type="image/x-icon">
+  <!--link fonts google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+  <main class="main">
+    <section class="section_main">
+
+      <div class="s_main__img">
+      <!--background image -->
+      </div>
+
+      <div class="s_main__form">
+
+        <h2 class="title__form">Calculadora</h2>
+        <p class="text__form">Aprenda a calcular o volume de água da piscina e seja preciso na quantidade de produto para o tratamento.</p>
+
+        <form class="form">
+          <label for="select_products" class="select">SELECIONE O PRODUTO</label> 
+
+          <select name="select" id="select_products" class="select" >
+            <option value="">Selecione</option>
+            <option value="Clarificante"  > GENCO® Clarificante e Auxiliar de Filtração</option>
+            <option value="algicidachoque">GENCO® ALGICIDA DE CHOQUE</option>
+            <option value="algicidamanutencao">GENCO® ALGICIDA DE MANUTENÇÃO</option>
+            <option value="algicida sem cobre">GENCO® ALGICIDA SEM COBRE</option>
+            <option value="sulfatodealuminio">GENCO® Sulfato de Alumínio </option>
+            <option value="gloromultiacao">GENCO® L.E. Cloro Granulado Múltipla Ação 3 em 1</option>
+            <option value="cloroestabilizado">GENCO® GENCLOR Cloro Granulado Estabilizado </option>
+            <option value="clorogranulado">GENCO® POOL-TRAT Cloro Granulado</option>
+            <option value="phcerto"> GENCO® PH CERTO Granulado Estabilizante de PH</option>
+            <option value="phmaisgranulado">GENCO® PH + MAIS Granulado Barrilha </option>
+            <option value="phmenosliquido">GENCO® PH - MENOS Líquido </option>
+            <option value="phmaisliquido">GENCO® PH + MAIS Líquido </option>
+            <opition value="inibidordemanchas">GENCO® Inibidor de Manchas e Incrustações </opition>
+          </select>
+
+          <br>
+          
+          <label for="pool_size" class="select">QUAL O VOLUME DA SUA PISCINA?</label>
+          <br>
+          <input type="text" id="pool_size" placeholder="Mil litros" class="number">
+
+          <input type="submit" value="CALCULAR" class="button" onclick="calculateProducts()">
+
+          <p> não sabe? <a href="more.html" class="link">calcule o volume da sua piscina</a></p>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+<script src="assets/script/script.js"></script>
+</body>
+</html>

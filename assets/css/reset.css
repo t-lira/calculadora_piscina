@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+  --lightGray: #E7ECEF;
+  --Gray: #79868d;
+  --blue: #7ac9ee;
+  --bluelight: #9cd1e7;
+}
+
+.main, .body{
+  background-color: var(--lightGray);
+}
+
+.link{
+  color: var(--Gray);
+  text-decoration: none; 
+  transition: all 0.5s ease-in-out;
+}
+
+.link:hover{
+  text-decoration: underline;
+  text-decoration-color: #79868d;
+}
+
+
+
+

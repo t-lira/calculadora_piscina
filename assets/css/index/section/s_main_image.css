@@ -1,0 +1,13 @@
+.s_main__img{
+  height: 25vh;
+  background: url("/assets/image/pexels-photo-9044049.jpeg") no-repeat top/cover;
+}
+
+@media(min-width:1024px){
+.s_main__img{
+  height: 60vh;
+  width:90vh;
+  background: url("/assets/image/pexels-photo-9044049.jpeg") no-repeat top/cover;
+  border-radius: 10px 0 0 10px ;
+}
+}

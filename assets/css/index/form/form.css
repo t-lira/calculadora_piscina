@@ -1,0 +1,20 @@
+.number{
+  border-radius: 5px;
+  border: 1px solid #000000;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.select{
+  height: 30px;
+  width: 150px; 
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+::placeholder{
+  text-align: right;
+  margin-right: 5px;
+}

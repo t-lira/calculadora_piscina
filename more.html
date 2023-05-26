@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <!--link css-->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/more/section/s_container.css">
+  <link rel="stylesheet" href="assets/css/more/section/s_text.css">
+  <link rel="stylesheet" href="assets/css/more/section/section.css"> 
+  <link rel="stylesheet" href="assets/css/more/section/box_format_pool.css">
+  <link rel="stylesheet" href="assets/css/more/header_image.css">
+
+  <link rel="stylesheet" href="assets/css/more/form/form.css">
+  <link rel="stylesheet" href="assets/css/more/form/form_button.css">
+  <!--link favicon-->
+  <link rel="shortcut icon" href="assets/image/favicon/icons.ico" type="image/x-icon">
+  <!--link fonts google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+  <main class="main">
+
+    <header class="header">
+      <!--background image-->
+    </header>
+
+    <section class="section">
+      <h1 class="title">COMO CALCULAR O VOLUME DA PISCINA</h1>
+
+      <div class="s_container">
+        <h2 class="text">QUAL É O FORMATO DA PISCINA?</h2>
+  
+        <div class="box_format_pool">
+
+          <div class="format_pool__square" id="format_circle">
+
+          </div>
+
+          <form class="form_calc">
+            <div class="box_form">
+              <label for="">Largura: </label>
+              <input type="calculate_width" id="calculate_width" class="number_calc" placeholder="metro(s)
+              "> 
+
+              <br>
+
+              <label for="calculate_length">Comprimento: </label>
+              <input type="text" id="calculate_length" class="number_calc" placeholder="metro(s)
+              ">
+  
+              <br>
+
+              <label for="calculate_depth_squard">Profundidade: </label>
+              <input type="text" id="calculate_depth_squard" class="number_calc" placeholder="metro(s)
+              ">
+            </div>
+  
+            <div class="button_form">
+              <input type="submit" value="CALCULAR" class="btn" onclick="calculateDiameter()"
+              > 
+            </div>
+  
+          </form>
+
+        </div>
+
+        <div class="box_format_pool">
+          
+          <div class="format_pool__circle" id="format_squard">
+
+          </div>
+
+          <form class="form_calc">
+            <div class="box_form">
+              <label for="calculate_diameter_larger">Diâmetro maior: </label>
+              <input type="text" id="calculate_diameter_larger" class="number_calc" placeholder="metro(s)
+              "> 
+
+              <br>
+
+              <label for="calculate_length_smaller">Diâmetro menor: </label>
+              <input type="text" id="calculate_length_smaller" class="number_calc" placeholder="metro(s)
+              ">
+
+              <br>
+
+              <label for="calculate_depth_round">Profundidade: </label>
+              <input type="text" id="calculate_depth_round" class="number_calc" placeholder="metro(s)
+              ">
+            </div>
+  
+            <div class="button_form">
+              <input type="submit" value="CALCULAR" class="btn" onclick="calculateDiameter()"
+              > 
+            </div>
+  
+          </form>
+
+        </div>
+
+      </div>
+
+      <p class="text">Deseja calcular a quantidade de produto? <a href="index.html" class="link">Acessar</a> </p>
+      
+    </section>
+  </main>
+
+  <script src="assets/script/script.js"></script>
+</body>
+</html>

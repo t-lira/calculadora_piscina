@@ -1,0 +1,39 @@
+.box_format_pool{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  gap: 0 20px;
+  margin-bottom: 20px;
+  background-color: rgb(224, 221, 218);
+  border-radius: 10px;
+}
+
+.format_pool__circle, .format_pool__square{
+  background-color: var(--Gray);
+  border: 3px solid white;
+  transition: all 0.5s ease-in-out;
+}
+
+.format_pool__circle:hover, .format_pool__square:hover{
+  background-color: var(--bluelight);
+}
+
+.format_pool__circle{
+  padding: 50px;
+  border-radius: 100px; 
+  height: 30px;
+}
+
+.format_pool__square{
+  padding: 50px;
+  height: 10px;
+}
+@media(min-width:1204px){
+  .box_format_pool{
+    width: 400px;
+    padding: 10px;
+  }
+
+}
